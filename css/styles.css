@@ -12,8 +12,12 @@ body {
     text-decoration: none;
 }
 
-.accent-logo {
+.accent-logo-header {
     color: #2E2F42;
+}
+
+.accent-logo-footer {
+    color: #f4f4fd;
 }
 
 .hidden-text {
@@ -83,9 +87,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    font-weight: 600;
     font-size: 16px;
-    line-height: 1.18;
     color: #ffffff;
     background-color: #4D5AE5;
 }
@@ -97,25 +99,44 @@ body {
 
 .section-title {
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .list-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .list-description {
     font-size: 16px;
     line-height: 1.5;
-    /* color: #434455; */
+}
+
+.section-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-bottom {
+    background-color: #F4F4FD
+}
+
+.section-bottom-item {
+    background-color: #FFFFFF;
+}
+
+.section-bottom-description {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .footer-section {
@@ -131,12 +152,29 @@ body {
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
+    text-transform: uppercase;
     font-size: 18px;
-    line-height: 1.16;
-    color: #F4F4FD;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
 
-.portfolio-menu {}
+.portfolio-menu-item {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+}
+
+.portfolio-menu-item:hover,
+.portfolio-menu-item:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
 
 .gallery {}
 
