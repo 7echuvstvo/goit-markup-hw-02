@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42
+}
+
+.list-style {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.accent-logo {
+    color: #4D5AE5;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    /* color: #2E2F42; */
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    /* color: #2E2F42; */
+}
+
+.address-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.hero-section {
+    background: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+}
+
+.modal-button {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #ffffff;
+    background-color: #4D5AE5;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2E2F42;
+}
+
+.list-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.list-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.footer-section {
+    background: #2E2F42;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E7E9FC;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #F4F4FD;
+}
+
+.portfolio-menu {}
+
+.gallery {}
+
+.gallery-item {}
+
+.gallery-description {}
+
+.gallery-text {}
+
+.cashless-payment {
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+}
